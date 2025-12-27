@@ -26,4 +26,17 @@
 
 | <!-- -->      | <!-- -->        | <!-- -->      |
 | :--- | :---: | ---: |
-| hello | world | hello |
+| **M** | Mission | hello |
+| **M** | Money | hello |
+| **M** | Metrics | hello |
+| **I** | Idea | hello |
+| **I** | Infrastructure | hello |
+| **S** | Strategy | hello |
+| **S** | Skills | hello |
+| **S** | Stakeholders | hello |
+| **S** | Source of Data | hello |
+| **I** | Inputs | hello |
+| **I** | Interpretation | hello |
+| **O** | Outputs | hello |
+| **O** | Obstacles | hello |
+| **N** | Nuances | hello |
