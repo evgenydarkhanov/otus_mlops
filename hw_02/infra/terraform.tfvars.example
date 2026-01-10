@@ -1,0 +1,34 @@
+### PROVIDER VARIBLES AND SHARED VARIABLES ###
+yc_zone                  = ""
+yc_token                 = ""
+yc_cloud_id              = ""
+yc_folder_id             = ""
+public_key_path          = ""
+private_key_path         = ""
+
+### IAM VARIABLES ###
+yc_service_account_name  = "otus-mlops-sa"
+
+### NETWORK VARIABLES ###
+yc_network_name          = "otus-mlops-network"
+yc_subnet_name           = "otus-mlops-subnet"
+yc_subnet_range          = "10.0.0.0/24"
+yc_nat_gateway_name      = "otus-mlops-nat-gateway"
+yc_route_table_name      = "otus-mlops-route-table"
+yc_security_group_name   = "otus-mlops-security-group"
+
+### STORAGE VARIABLES ###
+yc_bucket_name           = "otus-mlops-bucket"
+yc_bucket_size           = 161061273600             # 150 GB
+yc_default_storage_class = "standard"
+
+### DATA PROC VARIABLES ###
+yc_dataproc_cluster_name = "otus-mlops-dataproc-cluster"
+yc_dataproc_version      = "2.0"
+
+### PROXY VIRTUAL MACHINE VARIABLES ###
+yc_image_id              = "fd808e721rc1vt7jkd0o"   # Ubuntu 20.04 LTS
+yc_instance_name         = "otus-mlops-proxy-vm"
+yc_platform_id           = "standard-v3"
+yc_instance_cores        = 2
+yc_instance_memory       = 16
